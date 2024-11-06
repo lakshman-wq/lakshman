@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.poster {
+    width: 800px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    height: 70px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header h2, .header h3 {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.batch {
+    text-align: right;
+    font-weight: bold;
+}
+
+.section {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.title, .abstract {
+    margin: 10px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content div {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid black;
+    min-height: 200px;
+}
+
+.members {
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.members table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.members th, .members td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.diagram{
+  height: 450px;
+  width: 400px;
+}
+.hig{
+    width: 350px;
+    height: 400px;
+}
